@@ -1,13 +1,13 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project '02. Multithreading'" />
-    <option name="defaultScopeName" value="Project '02. Multithreading'" />
+    <option name="customScope" value="Project '03-homework-threads'" />
+    <option name="defaultScopeName" value="Project '03-homework-threads'" />
     <option name="localCaseSensitive" value="true" />
     <option name="localWholeWordsOnly" value="true" />
     <option name="wholeWordsOnly" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
-    <option name="SEARCH_SCOPE" value="Project '02. Multithreading'" />
+    <option name="SEARCH_SCOPE" value="Project '03-homework-threads'" />
   </component>
 </application>
