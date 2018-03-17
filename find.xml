@@ -1,13 +1,13 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Package Lesson01InterfacesAndAbstraction.Lab" />
-    <option name="defaultScopeName" value="Package Lesson01InterfacesAndAbstraction.Lab" />
+    <option name="customScope" value="Package _01_recursion_sorting_searching.lab" />
+    <option name="defaultScopeName" value="Package _01_recursion_sorting_searching.lab" />
     <option name="localCaseSensitive" value="true" />
     <option name="localWholeWordsOnly" value="true" />
     <option name="wholeWordsOnly" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
-    <option name="SEARCH_SCOPE" value="Package Lesson01InterfacesAndAbstraction.Lab" />
+    <option name="SEARCH_SCOPE" value="Package _01_recursion_sorting_searching.lab" />
   </component>
 </application>
