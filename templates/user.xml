@@ -79,4 +79,11 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="forr" value="for(int $INDEX$ = $LIMIT$; $INDEX$ &gt; 0; $INDEX$--) {&#10;  $END$&#10;}" description="Reversed for iterator" toReformat="false" toShortenFQNames="true">
+    <variable name="INDEX" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LIMIT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
