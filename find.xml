@@ -1,13 +1,13 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Directory '...\src\main\java [Homework]'" />
-    <option name="defaultScopeName" value="Directory '...\src\main\java [Homework]'" />
+    <option name="customScope" value="Directory '... [01. Gringotts Database]'" />
+    <option name="defaultScopeName" value="Directory '... [01. Gringotts Database]'" />
     <option name="localCaseSensitive" value="true" />
     <option name="localWholeWordsOnly" value="true" />
     <option name="wholeWordsOnly" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
-    <option name="SEARCH_SCOPE" value="Directory '...\src\main\java [Homework]'" />
+    <option name="SEARCH_SCOPE" value="Directory '... [01. Gringotts Database]'" />
   </component>
 </application>
