@@ -1,13 +1,13 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Directory '... [04. Hospital Database]'" />
-    <option name="defaultScopeName" value="Directory '... [04. Hospital Database]'" />
+    <option name="customScope" value="Directory '... [rest-services]'" />
+    <option name="defaultScopeName" value="Directory '... [rest-services]'" />
     <option name="localCaseSensitive" value="true" />
     <option name="localWholeWordsOnly" value="true" />
     <option name="wholeWordsOnly" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
-    <option name="SEARCH_SCOPE" value="Directory '... [04. Hospital Database]'" />
+    <option name="SEARCH_SCOPE" value="Directory '... [rest-services]'" />
   </component>
 </application>
