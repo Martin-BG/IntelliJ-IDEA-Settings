@@ -66,7 +66,7 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="bfrt" value="try (java.io.BufferedReader reader = new java.io.BufferedReader(new java.io.InputStreamReader(java.lang.System.in))) {&#10;    $END$&#10;        } catch (java.io.IOException e) {&#10;            e.printStackTrace();&#10;        }" description="BufferedReader in try-with-resources block" toReformat="true" toShortenFQNames="true">
+  <template name="bfrt" value="try (java.io.BufferedReader reader = new java.io.BufferedReader(new java.io.InputStreamReader(java.lang.System.in, java.nio.charset.Charset.forName(&quot;UTF-8&quot;)))) {&#10;    $END$&#10;        } catch (java.io.IOException | java.lang.NullPointerException e) {&#10;            e.printStackTrace();&#10;        }" description="BufferedReader in try-with-resources block" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_EXPRESSION" value="true" />
       <option name="JAVA_STATEMENT" value="true" />
