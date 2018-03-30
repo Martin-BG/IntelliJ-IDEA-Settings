@@ -1,5 +1,5 @@
 <templateSet group="user">
-  <template name="scan" value="java.util.Scanner scanner = new java.util.Scanner(java.lang.System.in);&#10;$END$" description="Creates Scanner object" toReformat="true" toShortenFQNames="true">
+  <template name="scan" value="final java.util.Scanner scanner = new java.util.Scanner(java.lang.System.in);&#10;$END$" description="Creates Scanner object" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_EXPRESSION" value="true" />
       <option name="JAVA_STATEMENT" value="true" />
@@ -40,7 +40,7 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="bfr" value="java.io.BufferedReader reader = new java.io.BufferedReader(new java.io.InputStreamReader(java.lang.System.in));&#10;$END$" description="BufferedReader warping InputStreamReader of System.in" toReformat="true" toShortenFQNames="true">
+  <template name="bfr" value="final java.io.BufferedReader reader = new java.io.BufferedReader(new java.io.InputStreamReader(java.lang.System.in));&#10;$END$" description="BufferedReader warping InputStreamReader of System.in" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_EXPRESSION" value="true" />
       <option name="JAVA_STATEMENT" value="true" />
@@ -66,7 +66,7 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="bfrt" value="try (java.io.BufferedReader reader = new java.io.BufferedReader(new java.io.InputStreamReader(java.lang.System.in, java.nio.charset.Charset.forName(&quot;UTF-8&quot;)))) {&#10;    $END$&#10;        } catch (java.io.IOException | java.lang.NullPointerException e) {&#10;            e.printStackTrace();&#10;        }" description="BufferedReader in try-with-resources block" toReformat="true" toShortenFQNames="true">
+  <template name="bfrt" value="try (final java.io.BufferedReader reader = new java.io.BufferedReader(new java.io.InputStreamReader(java.lang.System.in, java.nio.charset.Charset.forName(&quot;UTF-8&quot;)))) {&#10;    $END$&#10;        } catch (java.io.IOException | java.lang.NullPointerException e) {&#10;            e.printStackTrace();&#10;        }" description="BufferedReader in try-with-resources block" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_EXPRESSION" value="true" />
       <option name="JAVA_STATEMENT" value="true" />
@@ -86,10 +86,9 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="testme" value="try (java.io.BufferedReader reader = new java.io.BufferedReader(new java.io.InputStreamReader(java.lang.System.in, ENCODING))) {&#10;            &#10;        } catch (java.io.IOException | java.lang.NullPointerException e) {&#10;            e.printStackTrace();&#10;        }" description="ttt" toReformat="true" toShortenFQNames="true">
+  <template name="psvmbfrt" value="private static final java.nio.charset.Charset ENCODING = java.nio.charset.Charset.forName(&quot;UTF-8&quot;);&#10;    &#10;    public static void main(java.lang.String[] args) {&#10;&#10;        try (final java.io.BufferedReader reader = new java.io.BufferedReader(new java.io.InputStreamReader(java.lang.System.in, ENCODING))) {&#10;            $END$&#10;        } catch (java.io.IOException | java.lang.NullPointerException e) {&#10;            e.printStackTrace();&#10;        }&#10;    }" description="psvm + bfrt" toReformat="true" toShortenFQNames="true">
     <context>
-      <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
 </templateSet>
