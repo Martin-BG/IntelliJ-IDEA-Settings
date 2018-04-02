@@ -53,7 +53,7 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="sb" value="java.lang.StringBuilder sb = new java.lang.StringBuilder();&#10;$END$" description="Create a StringBuilder object" toReformat="true" toShortenFQNames="true">
+  <template name="sb" value="final java.lang.StringBuilder sb = new java.lang.StringBuilder();&#10;$END$" description="Create a StringBuilder object" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_EXPRESSION" value="true" />
       <option name="JAVA_STATEMENT" value="true" />
@@ -86,7 +86,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="psvmbfrt" value="private static final java.nio.charset.Charset ENCODING = java.nio.charset.Charset.forName(&quot;UTF-8&quot;);&#10;    &#10;    public static void main(java.lang.String[] args) {&#10;&#10;        try (final java.io.BufferedReader reader = new java.io.BufferedReader(new java.io.InputStreamReader(java.lang.System.in, ENCODING))) {&#10;            $END$&#10;        } catch (java.io.IOException | java.lang.NullPointerException e) {&#10;            e.printStackTrace();&#10;        }&#10;    }" description="psvm + bfrt" toReformat="true" toShortenFQNames="true">
+  <template name="psvmbfrt" value="private static final java.nio.charset.Charset ENCODING = java.nio.charset.Charset.forName(&quot;UTF-8&quot;);&#10;    &#10;    public static void main(final java.lang.String[] args) {&#10;&#10;        try (final java.io.BufferedReader reader = new java.io.BufferedReader(new java.io.InputStreamReader(java.lang.System.in, ENCODING))) {&#10;            $END$&#10;        } catch (java.io.IOException | java.lang.NullPointerException e) {&#10;            e.printStackTrace();&#10;        }&#10;    }" description="psvm + bfrt" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_DECLARATION" value="true" />
     </context>
