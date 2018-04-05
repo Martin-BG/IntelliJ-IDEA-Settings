@@ -1,13 +1,13 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Directory '... [user-system]'" />
-    <option name="defaultScopeName" value="Directory '... [user-system]'" />
+    <option name="customScope" value="Directory '... [Spring Config]'" />
+    <option name="defaultScopeName" value="Directory '... [Spring Config]'" />
     <option name="localCaseSensitive" value="true" />
     <option name="localWholeWordsOnly" value="true" />
     <option name="wholeWordsOnly" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
-    <option name="SEARCH_SCOPE" value="Directory '... [user-system]'" />
+    <option name="SEARCH_SCOPE" value="Directory '... [Spring Config]'" />
   </component>
 </application>
