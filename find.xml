@@ -1,13 +1,13 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Directory '...\src [game_store]'" />
-    <option name="defaultScopeName" value="Directory '...\src [game_store]'" />
+    <option name="customScope" value="File '...\src\main\java\game_store\store\LoggedUserRegister.java [game_store]'" />
+    <option name="defaultScopeName" value="File '...\src\main\java\game_store\store\LoggedUserRegister.java [game_store]'" />
     <option name="localCaseSensitive" value="true" />
     <option name="localWholeWordsOnly" value="true" />
     <option name="wholeWordsOnly" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
-    <option name="SEARCH_SCOPE" value="Directory '...\src [game_store]'" />
+    <option name="SEARCH_SCOPE" value="File '...\src\main\java\game_store\store\LoggedUserRegister.java [game_store]'" />
   </component>
 </application>
