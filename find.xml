@@ -1,13 +1,13 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Directory '... [shampoo-company]'" />
-    <option name="defaultScopeName" value="Directory '... [shampoo-company]'" />
+    <option name="customScope" value="Project 'Game Store'" />
+    <option name="defaultScopeName" value="Project 'Game Store'" />
     <option name="localCaseSensitive" value="true" />
     <option name="localWholeWordsOnly" value="true" />
     <option name="wholeWordsOnly" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
-    <option name="SEARCH_SCOPE" value="Directory '... [shampoo-company]'" />
+    <option name="SEARCH_SCOPE" value="Project 'Game Store'" />
   </component>
 </application>
