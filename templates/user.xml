@@ -86,7 +86,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="psvmbfrt" value="public static void main(final java.lang.String[] args) {&#10;&#10;    try (final java.io.BufferedReader reader = new java.io.BufferedReader(new java.io.InputStreamReader(java.lang.System.in, StandardCharsets.UTF_8))) {&#10;        $END$&#10;    } catch (java.io.IOException | java.lang.NullPointerException e) {&#10;        e.printStackTrace();&#10;    }&#10;}" description="psvm + bfrt" toReformat="true" toShortenFQNames="true">
+  <template name="psvmbfrt" value="public static void main(final java.lang.String[] args) {&#10;&#10;    try (final java.io.BufferedReader reader = new java.io.BufferedReader(new java.io.InputStreamReader(java.lang.System.in, java.nio.charset.StandardCharsets.UTF_8))) {&#10;        $END$&#10;    } catch (java.io.IOException | java.lang.NullPointerException e) {&#10;        e.printStackTrace();&#10;    }&#10;}" description="psvm + bfrt" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_DECLARATION" value="true" />
     </context>
