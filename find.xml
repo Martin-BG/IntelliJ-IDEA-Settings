@@ -1,11 +1,11 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Directory '... [mas-defect-solution]'" />
-    <option name="defaultScopeName" value="Directory '... [mas-defect-solution]'" />
+    <option name="customScope" value="Directory '... [photography-workshops]'" />
+    <option name="defaultScopeName" value="Directory '... [photography-workshops]'" />
     <option name="localCaseSensitive" value="true" />
     <option name="localWholeWordsOnly" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
-    <option name="SEARCH_SCOPE" value="Directory '... [mas-defect-solution]'" />
+    <option name="SEARCH_SCOPE" value="Directory '... [photography-workshops]'" />
   </component>
 </application>
