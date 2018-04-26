@@ -1,11 +1,11 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Directory '... [JDBA_Exam_Test]'" />
-    <option name="defaultScopeName" value="Directory '... [JDBA_Exam_Test]'" />
+    <option name="customScope" value="Directory '...\src\main\java\org\softuni\ruk [ruk]'" />
+    <option name="defaultScopeName" value="Directory '...\src\main\java\org\softuni\ruk [ruk]'" />
     <option name="localCaseSensitive" value="true" />
     <option name="localWholeWordsOnly" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
-    <option name="SEARCH_SCOPE" value="Directory '... [JDBA_Exam_Test]'" />
+    <option name="SEARCH_SCOPE" value="Directory '...\src\main\java\org\softuni\ruk [ruk]'" />
   </component>
 </application>
