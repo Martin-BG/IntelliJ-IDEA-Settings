@@ -35,7 +35,7 @@
       <option name="JAVA_EXPRESSION" value="true" />
     </context>
   </template>
-  <template name="doubleToStringC#-like" value="private static String doubleToStringCSharpLike(double value) {&#10;    int digits = 15;&#10;&#10;    if (Math.abs(value) &gt;= 1.0d) {&#10;        digits -= Double.toString(value).split(&quot;[.,]&quot;)[0].length();&#10;    }&#10;&#10;    String format = &quot;0.&quot; + new String(new char[digits]).replace(&quot;\0&quot;, &quot;#&quot;);&#10;    DecimalFormat df = new DecimalFormat(format);&#10;&#10;    return df.format(value);&#10;}" description="double To String C#-like method" toReformat="true" toShortenFQNames="true">
+  <template name="doubleToStringC#-like" value="private static String doubleToStringCSharpLike(double value) {&#10;    int digits = 15;&#10;&#10;    DecimalFormat df = new DecimalFormat(&quot;0.#&quot;);&#10;    df.setMaximumFractionDigits(digits);&#10;&#10;    if (Math.abs(value) &gt;= 1d) {&#10;        digits -= df.format(value).split(&quot;[.,]&quot;)[0].length();&#10;    }&#10;&#10;    df.setMaximumFractionDigits(digits);&#10;    return df.format(value);&#10;}" description="double To String C#-like method" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_DECLARATION" value="true" />
     </context>
