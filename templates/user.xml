@@ -24,7 +24,7 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="repStrMethod" value="private static java.lang.String repeatStr(java.lang.String strToRepeat, int count){&#10;    java.lang.StringBuilder sb = new java.lang.StringBuilder();&#10;&#10;    for (int i = 0; i &lt; count; i++) {&#10;        sb.append(strToRepeat);&#10;    }&#10;&#10;    return sb.toString();&#10;}" description="Adds a repeatString(str, count) method" toReformat="true" toShortenFQNames="true">
+  <template name="repStrMethod" value="private static java.lang.String repeatStr(java.lang.String strToRepeat, int count){&#10;    int digits = 15;&#10;&#10;    DecimalFormat df = new DecimalFormat(&quot;0.#&quot;);&#10;    df.setMaximumFractionDigits(digits);&#10;&#10;    if (Math.abs(value) &gt;= 1d) {&#10;        digits -= df.format(value).split(&quot;[.,]&quot;)[0].length();&#10;    }&#10;&#10;    df.setMaximumFractionDigits(digits);&#10;    return df.format(value);&#10;}" description="Adds a repeatString(str, count) method" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_DECLARATION" value="true" />
     </context>
