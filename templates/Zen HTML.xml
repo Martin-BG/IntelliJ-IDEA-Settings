@@ -1,5 +1,12 @@
 <templateSet group="Zen HTML">
-  <template name="br" value="&lt;br&gt;" description="&lt;br&gt;" toReformat="true" toShortenFQNames="true">
+  <template name="link" value="&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;$END$&quot;&gt;" description="&lt;link rel=&quot;stylesheet&quot; href=&quot;...&quot;&gt;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JSX_EXPRESSION" value="true" />
+      <option name="JSX_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="link:css" value="&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;$STYLE$.css&quot; &gt;" description="&lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot; &gt;" toReformat="true" toShortenFQNames="true">
+    <variable name="STYLE" expression="" defaultValue="&quot;style&quot;" alwaysStopAt="true" />
     <context />
   </template>
 </templateSet>
