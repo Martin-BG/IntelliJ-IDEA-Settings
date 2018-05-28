@@ -1,5 +1,6 @@
 <application>
   <component name="NotificationConfiguration">
+    <notification groupId="Checkstyle IDEA Alerts" displayType="NONE" />
     <notification groupId="FindBugs: Analysis Finished" displayType="NONE" shouldLog="false" />
   </component>
 </application>
