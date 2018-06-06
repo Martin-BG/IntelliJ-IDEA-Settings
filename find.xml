@@ -1,11 +1,11 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Directory '...\src [exercise]'" />
-    <option name="defaultScopeName" value="Directory '...\src [exercise]'" />
+    <option name="customScope" value="Directory '... [FDMC]'" />
+    <option name="defaultScopeName" value="Directory '... [FDMC]'" />
     <option name="localWholeWordsOnly" value="true" />
     <option name="regularExpressions" value="true" />
     <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
-    <option name="SEARCH_SCOPE" value="Directory '...\src [exercise]'" />
+    <option name="SEARCH_SCOPE" value="Directory '... [FDMC]'" />
   </component>
 </application>
