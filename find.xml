@@ -1,13 +1,13 @@
 <application>
   <component name="FindSettings">
     <option name="caseSensitive" value="true" />
-    <option name="customScope" value="Directory '... [javajsp]'" />
-    <option name="defaultScopeName" value="Directory '... [javajsp]'" />
+    <option name="customScope" value="Directory '...\src [toyote]'" />
+    <option name="defaultScopeName" value="Directory '...\src [toyote]'" />
     <option name="localWholeWordsOnly" value="true" />
     <option name="regularExpressions" value="true" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
-    <option name="SEARCH_SCOPE" value="Directory '... [javajsp]'" />
+    <option name="SEARCH_SCOPE" value="Directory '...\src [toyote]'" />
   </component>
 </application>
