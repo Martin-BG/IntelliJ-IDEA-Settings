@@ -18,8 +18,12 @@
           <option name="url" value="https://github.com/Bernardo-MG/repository-pattern-java.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/gustavoponce7/SpringSecurityLoginTutorial.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$" />
+    <option name="cloneParentDir" value="C:\Scripts" />
   </component>
 </application>
