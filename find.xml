@@ -1,13 +1,13 @@
 <application>
   <component name="FindSettings">
     <option name="caseSensitive" value="true" />
-    <option name="customScope" value="Directory '...\src\main\java\org\softuni\javaee [javaservlet]'" />
-    <option name="defaultScopeName" value="Directory '...\src\main\java\org\softuni\javaee [javaservlet]'" />
+    <option name="customScope" value="Directory '...\src [rtcs]'" />
+    <option name="defaultScopeName" value="Directory '...\src [rtcs]'" />
     <option name="localWholeWordsOnly" value="true" />
     <option name="regularExpressions" value="true" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
-    <option name="SEARCH_SCOPE" value="Directory '...\src\main\java\org\softuni\javaee [javaservlet]'" />
+    <option name="SEARCH_SCOPE" value="Directory '...\src [rtcs]'" />
   </component>
 </application>
