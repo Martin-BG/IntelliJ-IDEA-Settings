@@ -1,11 +1,11 @@
 <application>
   <component name="FindSettings">
     <option name="caseSensitive" value="true" />
-    <option name="customScope" value="Directory '...\src\main\java [register]'" />
-    <option name="defaultScopeName" value="Directory '...\src\main\java [register]'" />
+    <option name="customScope" value="File '...\src\test\java\bg\codexio\erp\register\domain\models\binding\RegisterDataBindingModelTest.java [register]'" />
+    <option name="defaultScopeName" value="File '...\src\test\java\bg\codexio\erp\register\domain\models\binding\RegisterDataBindingModelTest.java [register]'" />
     <option name="regularExpressions" value="true" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
-    <option name="SEARCH_SCOPE" value="Directory '...\src\main\java [register]'" />
+    <option name="SEARCH_SCOPE" value="File '...\src\test\java\bg\codexio\erp\register\domain\models\binding\RegisterDataBindingModelTest.java [register]'" />
   </component>
 </application>
