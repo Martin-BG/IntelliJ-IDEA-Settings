@@ -30,6 +30,10 @@
           <option name="url" value="https://github.com/sivaprasadreddy/spring-boot-microservices-series.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/spring-cloud-samples/spring-cloud-gateway-sample.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Scripts\demos" />
