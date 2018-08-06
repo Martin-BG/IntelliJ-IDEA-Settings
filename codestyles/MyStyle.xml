@@ -1,5 +1,4 @@
 <code_scheme name="MyStyle" version="173">
-  <option name="FORMATTER_TAGS_ENABLED" value="true" />
   <codeStyleSettings language="JAVA">
     <option name="INDENT_CASE_FROM_SWITCH" value="false" />
     <option name="IF_BRACE_FORCE" value="3" />
