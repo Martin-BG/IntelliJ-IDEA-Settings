@@ -20,10 +20,10 @@
         <entry key="EditorBasics.Move" value="PASSED" />
         <entry key="EditorBasics.MultipleSelections" value="PASSED" />
         <entry key="EditorBasics.Selection" value="PASSED" />
-        <entry key="Navigation.Declaration/Implementation" value="NOT_PASSED" />
-        <entry key="Navigation.FileStructure" value="NOT_PASSED" />
-        <entry key="Navigation.JumptoSource" value="NOT_PASSED" />
-        <entry key="Navigation.Next/PreviousOccurrences" value="NOT_PASSED" />
+        <entry key="Navigation.Declaration/Implementation" value="PASSED" />
+        <entry key="Navigation.FileStructure" value="PASSED" />
+        <entry key="Navigation.JumptoSource" value="PASSED" />
+        <entry key="Navigation.Next/PreviousOccurrences" value="PASSED" />
         <entry key="Refactorings.ExtractMethod" value="PASSED" />
         <entry key="Refactorings.ExtractVariable/Field" value="PASSED" />
         <entry key="Refactorings.RefactoringBasics" value="PASSED" />
@@ -154,11 +154,35 @@
             </StatisticData>
           </value>
         </entry>
+        <entry key="Navigation.Declaration/Implementation">
+          <value>
+            <StatisticData>
+              <option name="state" value="PASSED" />
+              <option name="timestamp" value="14718" />
+            </StatisticData>
+          </value>
+        </entry>
+        <entry key="Navigation.FileStructure">
+          <value>
+            <StatisticData>
+              <option name="state" value="PASSED" />
+              <option name="timestamp" value="15607" />
+            </StatisticData>
+          </value>
+        </entry>
         <entry key="Navigation.JumptoSource">
           <value>
             <StatisticData>
-              <option name="state" value="STARTED" />
-              <option name="timestamp" value="1533600185705" />
+              <option name="state" value="PASSED" />
+              <option name="timestamp" value="82805091" />
+            </StatisticData>
+          </value>
+        </entry>
+        <entry key="Navigation.Next/PreviousOccurrences">
+          <value>
+            <StatisticData>
+              <option name="state" value="PASSED" />
+              <option name="timestamp" value="165810" />
             </StatisticData>
           </value>
         </entry>
