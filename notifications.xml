@@ -1,7 +1,0 @@
-<application>
-  <component name="NotificationConfiguration">
-    <notification groupId="Checkstyle IDEA Alerts" displayType="NONE" />
-    <notification groupId="FindBugs: Analysis Finished" displayType="NONE" shouldLog="false" />
-    <notification groupId="Lombok plugin" displayType="STICKY_BALLOON" shouldLog="false" />
-  </component>
-</application>
